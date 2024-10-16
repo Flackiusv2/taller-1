@@ -1,0 +1,78 @@
+/* estilos.css */
+body {
+    background-image: url('./TOP-fondo.png'); /* Verifica que la imagen esté en el mismo directorio */
+    background-size: cover;
+    background-position: center; /* Asegura que la imagen esté centrada */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh; /* Asegura que el fondo cubra toda la altura de la pantalla */
+    margin: 0; /* Elimina el margen por defecto del body */
+}
+
+.navbar {
+    background-color: transparent; /* Hace la barra de navegación transparente */
+}
+
+.navbar-brand img {
+    height: 80px; /* Ajusta el tamaño de la imagen según sea necesario */
+    width: auto; /* Mantiene la proporción de la imagen */
+    max-width: 200px; /* Limita el ancho máximo de la imagen */
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.9vw;
+    color: #FFD800 !important;
+    font-family: "Martian Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 540;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    margin-right: 80px; 
+    cursor: pointer;
+}
+
+.jumbotron {
+    background-color: transparent; /* Hace la jumbotron transparente */
+    color: black !important; /* Cambia el color del texto a negro */
+    font-family: 'Martian Mono', monospace; /* Cambia la familia de fuentes */
+    padding-top: 9.8vh;
+    padding-right: 10vw;   
+}
+
+.logo-container {
+    text-align: right; /* Centra el logo horizontalmente */
+    margin-bottom: 30px; /* Añade espacio debajo del logo */
+    padding-right: 5vw;
+}
+
+.logo-container img {
+    max-width:70px; /* Ajusta el tamaño del logo según sea necesario */
+    
+}
+.the-new-album {
+    font-size: 1.5vw; 
+    font-weight: 640;
+    padding-right: 2vw;
+}
+
+.clancy {
+    font-size: 4vw; 
+    font-weight: 700;
+    letter-spacing: 0.06em; /* Añade espacio entre las letras */
+}
+.btn-transparent {
+    background-color: transparent; /* Hace el botón transparente */
+    border: 1px solid #000000; /* Añade un borde negro */
+    color: #000000; /* Cambia el color del texto a negro */
+    font-family: 'Martian Mono', monospace; /* Cambia la familia de fuentes */
+    font-size: 1.5vw; /* Ajusta el tamaño de la fuente */
+    font-weight: 620; /* Ajusta el peso de la fuente */
+    padding: 5px 18px; /* Añade relleno al botón */
+    text-transform: uppercase; /* Convierte el texto a mayúsculas */
+    margin-top: 20px; 
+    margin-right: 30px;   
+}
+
+.btn-transparent:hover {
+    background-color: rgba(255, 216, 0, 0.1); /* Añade un fondo semitransparente al pasar el ratón */
+}
+
